@@ -11,9 +11,6 @@ h1 {
    height: 100%;
    top: 10px;
    padding: 10px;  
-   border: 3px;
-   border-style: dashed;
-   border-color: blueviolet; 
 }
 
  #left-container{
@@ -28,9 +25,6 @@ h1 {
    position: relative;
    height: 13%;
    left: -10px;
-   border: 3px;
-   border-style: dashed;
-   border-color: rgba(85, 145, 224, 0.692); 
 } 
 
 .plant{
@@ -38,4 +32,67 @@ h1 {
    max-width: 150%;
    max-height: 150%;
    z-index: 2;
+}
+
+.jar-walls{
+   height: 80%;
+   width: 60%;
+   background-color: #c5f1ec;
+   border-radius: 1rem;
+   position: absolute;
+   left: 20%;
+   bottom: 0.5%;
+   opacity: 0.4;
+   z-index: 1;
+}
+
+.jar-top{
+   height: 5%;
+   width: 50%;
+   background-color: #c5f1ec;
+   position: absolute;
+   left: 25%;
+   bottom: 80.5%;
+   opacity: 0.6;
+}
+.jar-bottom{
+
+
+}
+
+.dirt{
+   height: 8%;
+   width: 60%;
+   background-color: #3a241d;
+   border-radius: 0rem 0rem 1rem 1rem;
+   left: 20%;
+   bottom: 0.5%;
+   position: absolute;
+   z-index: -1;
+}
+
+.jar-glossy-long{
+   height: 20%;
+   width: 2%;
+   background-color: #eee;
+   border-radius: 1rem 1rem 1rem 1rem;
+   left: 4%;
+   bottom: 20%;
+   opacity: 1;
+   position: absolute;
+
+   /* border: 3px;
+   border-style: dashed;
+   border-color: blue; */
+}
+
+.jar-glossy-short{
+   height: 5%;
+   width: 2%;
+   background-color: #eee;
+   border-radius: 1rem 1rem 1rem 1rem;
+   left: 4%;
+   bottom: 50%;
+   opacity: 1;
+   position: absolute;
 }
